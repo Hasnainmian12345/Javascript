@@ -2,7 +2,10 @@ html {
   height: 100%;
   width: 100%;
 }
-
+#demo{background-color: aliceblue;}
+.closed{display: none;}
+.open{display: block;}
+.button{width: 150px;background-color: antiquewhite;}
 body{font-size: 10px;}
 nav{
       display: flex;font-family: sans-serif;font-size: 1rem;

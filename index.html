@@ -6,50 +6,20 @@
   <meta name="viewport" content="width=device-width">
   <title>Springtime In Michigan</title>
   <!-- You will need to link to the CSS file -->
-  <link rel="stylesheet" href="style.css">
-</head>
+  <link rel="stylesheet" href="css/style.css"><script src="js\script.js"></script></head>
 
-<body><a href="#maincontent" class="skip-link">Skip to Main Menu</a>
+<body>
+<h1>Changing The Style</h1>
+<p>javascript can change the style of an HTML element</p>
 
-  <h1 id="heading1">Heading1</h1>
-  <h1 id="heading1">Heading2</h1>
-  <script>alert("This is my alert")</script>
-  <script>var name; name= prompt ("Insert YOur Name:");
-  document.write(name); document.write(document.baseURI+"<br>"); </script>
-  
-  <script>document.write ("<h1>Insert YOur Name</h1>>")</script>
-  <script>document.write ("Insert YOur Name")</script>
-  <script>document.getElementById("heading1").innerHTML="Hello World";</script>
-  <script>console.log('This message is not for everyone');</script>
-
-  <script>function welcomemessage(){alert("welcome to Javascript!");}</script>
-  <script>function welcomemessage(msg){alert(msg);}</script>
-  <Header> <nav><a href="index.html" accesskey="h" target="_self">Home</a>
-          <a href="neighborhood.html">Neighborhood Walks</a>
-      <a href="parks.html">Walks in the Park</a>
-    
-  </nav></header>
-
-  
-
-
-  <main id="maincontent">
-    <p>Springtime in <img src="images/colourful.jpg" style="width: 100px;" alt="University"> is a beautiful time. Even though
-      it can be chilly at times, it is nice to walk my dog Bacon. This site includes some pictures I have taken on
-      these walks. </p>
-<p>Sometimes we walk around the neighborhood, other times we make it to the woods. Ann Arbor also has some
-      beautiful lakes and rivers including the <a
-        href="https://www.annarbor.org/things-to-do/recreation-outdoors/huron-river/">Huron River Watertrail</a> and
-      the <a href="https://www.a2gov.org/departments/Parks-Recreation/parks-places/argo/pages/default.aspx">Argo Park
-        Cascades</a>.</p>
-
-  </main>
-  <footer>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Specialization. Students are invited to make changes.</p>
-  </footer>
-
+  <button type="button" onclick="openMe()">Open</button>
+ <button type="button" onclick="closeMe()">Close</button>
+ <p id="demo"> Extra details ... you can open and close this paragraphs via above buttons</p>
+   
 </body>
 
-</html>
+</html>  
+  
+  
+  
+
