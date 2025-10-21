@@ -1,6 +1,6 @@
 /*Name this external file gallery.js*/
 
-function upDate(previewPic){
+function upDate(previewPic){document.getElementById('image').innerHTML=Element.alt;}
  /* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image
@@ -9,7 +9,7 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
   
-	}
+	
 
 	function unDo(){
      /* In this function you should 
