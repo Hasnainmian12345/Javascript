@@ -1,21 +1,22 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+/*Name this external file gallery.css*/
 body{
 		margin: 2%;
 		border: 1px solid black;
 		background-color: #b3b3b3;
 }
-#message{
-    line-height:100px;
-    text-align:center;
+#image{
+    line-height:650px;
 		width: 575px;
-    height: 100px;
+    height: 650px;
 		border:5px solid black;
 		margin:0 auto;
-    margin-bottom:10px;
     background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
     font-size: 150%;
 }
 .preview{
@@ -26,81 +27,3 @@ body{
 img{
 		width:95%;
 }
-
-img{
-  height:200px;
-}
-#demo{background-color: aliceblue;}
-.closed{display: none;}
-.open{display: block;}
-.button{width: 150px;background-color: antiquewhite;}
-body{font-size: 10px;}
-nav{
-      display: flex;font-family: sans-serif;font-size: 1rem;
-      background-color:whitesmoke;text-align: center;
-    }
-
-    nav a {
-      color: balck;
-      text-decoration: none;margin-right: 15%;
-      padding: 15px 15px;line-height: 50px;
-    }
-
-    nav a:hover {
-      background-color: greenyellow;
-    }
-
-.current{font-variant:small-caps; background-color:red;}
-    /* Dropdown container */
-    .dropdown {
-      position:relative;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color:whitesmoke;
-      min-width: 150px;
-      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      color:darkslateblue;
-      padding: 10px 15px;
-      display: block;
-      text-decoration: none;
-    }
-
-    .dropdown-content a:hover {
-      background-color: greenyellow;
-    }
-
-    /* Show dropdown on hover */
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-main{font-family:sans-serif;color:black;font-size:1.0rem;}
-h1{font-family: sans-serif; font-size: 1.5rem;color:blueviolet}
-
-.skip-link {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  background: #000;
-  color: #fff;
-  padding: 10px;
-  text-decoration: none;
-  z-index: 100;
-}
-
-.skip-link:focus {
-  position: static;
-  top: +100px;
-  left: 0;
-  outline: 2px slateblue;
-}
-img{border-width: 10px 10px;padding: 2px;margin-right:15px ; border-radius: 10%;width: 100%;}
-img:nth-child(2){width:30%}
-.grid{display:grid;grid-template-columns: 40% 40%;width: 100%;gap:20px}
-
