@@ -1,7 +1,7 @@
 /*Name this external file gallery.js*/
 
 
-function upDate(previewPic){document.getElementById('image').style.backgroundImage=url('"+previewPic.src+"');document.getElementById('image').innerHTML = element.alt;}
+function upDate(previewPic){document.getElementById('image').style.backgroundImage=url('"+previewPic.src+"');document.getElementById('image').innerHTML = 'element.alt';}
  
 
 /* In this function you should 
