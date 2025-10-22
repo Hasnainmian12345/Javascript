@@ -1,7 +1,7 @@
 /*Name this external file gallery.js*/
 
 
-function upDate(){document.getElementById('image')= 'this.alt';}
+function upDate(){document.getElementById('image').innerHTML= '<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg">';}
  /* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image
