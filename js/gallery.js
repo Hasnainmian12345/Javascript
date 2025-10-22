@@ -1,8 +1,10 @@
 /*Name this external file gallery.js*/
 
 
-function upDate(previewPic){document.getElementById('image').style.backgroundImage=url('"+previewPic.src+"');}
- /* In this function you should 
+function upDate(previewPic){document.getElementById('image').style.backgroundImage=url('"+previewPic.src+"');document.getElementById('image').innerHTML = element.alt;}
+ 
+
+/* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image
     
