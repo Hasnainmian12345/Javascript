@@ -23,4 +23,5 @@ function upDate(previewPic){document.getElementById('image').style.backgroundIma
     back to the original text.  You can use the html code to see what that original text was
     */
 		
-	
+	const	cars	=	["Saab",	Volvo,	BMW];
+document.getElementById("demo").innerHTML	=	cars;
