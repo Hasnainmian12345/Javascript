@@ -1,6 +1,5 @@
 /*Name this external file gallery.js*/
-const	cars	=	["Saab",	Volvo,	BMW];
-document.getElementById("demo").innerHTML	=	cars;
+
 
 function upDate(previewPic){document.getElementById('image').style.backgroundImage = "url('"+previewPic.src+"')";document.getElementById('image').innerHTML =previewPic.alt;}
  
