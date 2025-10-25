@@ -19,6 +19,8 @@ function focusUpdate(){options=["fort_in_woods.png","istockphoto-1419410282-612x
 currentImages=document.querySelectorAll(".flex img")
 for(var i=0; i<currentImages.length; i++)
 {console.log("Image"+i)
+randomImg="images/"+options[Math.floor(Math.random()*options.length)];
+currentImages[i].src=randomImg;
 currentImages[i].setAttribute("tabindex","0")}}
 
 
