@@ -9,6 +9,15 @@ function upDate(previewPic){document.getElementById('image').style.backgroundIma
     2) Change the text  of the div with the id = "image" 
     to the alt text of the preview image 
     */
+function pickImage(){options=["images/fort_in_woods.png","images/istockphoto-1419410282-612x612.jpg","images/pexels-pixabay-158063.jpg","images/colourful.jpg","images/high_altitude_aerial_view_above_cotton_soft_cloud_tops_glowing_in_golden_hour_light-full.jpg","images/pexels-alena-koval-233944-886521.jpg"]
+randomImg="images/"+options[Math.floor(Math.random()*options.length)];
+img=document.querySelector("#header_img")
+img.setAttribute("src",randomImg)
+img.setAttribute("alt","")}
+
+
+
+
 function setImages(){options=["images/fort_in_woods.png","images/istockphoto-1419410282-612x612.jpg","images/pexels-pixabay-158063.jpg","images/colourful.jpg","images/high_altitude_aerial_view_above_cotton_soft_cloud_tops_glowing_in_golden_hour_light-full.jpg","images/pexels-alena-koval-233944-886521.jpg"]
 currentImages=document.querySelectorAll(".flex img")
 for(var i=0; i<currentImages.length; i++)
