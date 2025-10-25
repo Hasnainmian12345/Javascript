@@ -18,12 +18,7 @@ img.setAttribute("alt","")}
 
 
 
-function setImages(){options=["fort_in_woods.png","istockphoto-1419410282-612x612.jpg","pexels-pixabay-158063.jpg","colourful.jpg","high_altitude_aerial_view_above_cotton_soft_cloud_tops_glowing_in_golden_hour_light-full.jpg","pexels-alena-koval-233944-886521.jpg"]
-currentImages=document.querySelectorAll(".flex img")
-for(var i=0; i<currentImages.length; i++)
-{console.log("Image"+i)
-randomImg="images/"+options[Math.floor(Math.random()*options.length)];
-currentImages[i].src=randomImg;currentImages[i].setAttribute("tabindex","0")}}
+
 
 
 
