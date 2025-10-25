@@ -9,11 +9,7 @@ function upDate(previewPic){document.getElementById('image').style.backgroundIma
     2) Change the text  of the div with the id = "image" 
     to the alt text of the preview image 
     */
-function pickImage(){options=["fort_in_woods.png","istockphoto-1419410282-612x612.jpg","pexels-pixabay-158063.jpg","colourful.jpg","high_altitude_aerial_view_above_cotton_soft_cloud_tops_glowing_in_golden_hour_light-full.jpg","pexels-alena-koval-233944-886521.jpg"]
-randomImg="images/"+options[Math.floor(Math.random()*options.length)];
-img=document.querySelector("#header_img")
-img.setAttribute("src",randomImg)
-img.setAttribute("alt","")}
+
 
 
 
