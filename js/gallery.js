@@ -13,9 +13,10 @@ function setImages(){options=["fort_in_woods.png","istockphoto-1419410282-612x61
 currentImages=document.querySelectorAll(".flex img")
 for(var i=0; i<currentImages.length; i++)
 {console.log("Image"+i);
-randomImg="images/"+options[Math.floor(Math.random()*options.length)];
-currentImages[i].src=randomImg;currentImages[i].alt =options[Math.floor(Math.random() * options.length)].alt;currentImages[i].setAttribute("tabindex","0");
-;}}
+randomImgno = options[Math.floor(Math.random() * options.length)];
+randomImg="images/"+randomImageno;
+currentImages[i].src=randomImg;currentImages[i].alt =randomImgno.alt;currentImages[i].setAttribute("tabindex","0");
+}}
 
 
 
