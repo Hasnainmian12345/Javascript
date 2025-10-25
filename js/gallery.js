@@ -19,7 +19,7 @@ currentImages=document.querySelectorAll(".flex img")
 for(var i=0; i<currentImages.length; i++)
 {console.log("Image"+i)
 randomImg="images/"+options[Math.floor(Math.random()*options.length)];
-currentImages[i].src=randomImg;currentImages[i].setAttribute("tabindex","0");currentImages[i].setAttribute("border-width","15px");}}
+currentImages[i].src=randomImg;currentImages[i].setAttribute("tabindex","0")}}
 
 
 
