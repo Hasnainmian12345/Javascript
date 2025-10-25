@@ -22,10 +22,10 @@ body{
 .preview{
 		width:10%;
 		margin-left:17%;
-    border: 10px solid black;
+    border: 5px solid blue;
 }
 #header_img{width:20%;}
 img{
-		width:95%; opacity: .75;
+		width:100%; opacity: .75;
 }
-img.hover,img.focus{opacity: 1; border:10pxsolid;}
+img.hover, img.focus{opacity: 1;border-color:none;}
