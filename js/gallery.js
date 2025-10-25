@@ -27,7 +27,7 @@ currentImages[i].src=randomImg;currentImages[i].setAttribute("tabindex","0");cur
   
 	
 
-	function unDo(){document.getElementById('image').innerHTML='Hover over an image below to display here.';document.getElementById('image').style.backgroundImage = 'url("")';}
+	function unDo(){document.getElementById('image').innerHTML='Focus/Hover over an image below to display here.';document.getElementById('image').style.backgroundImage = 'url("")';}
      /* In this function you should 
     1) Update the url for the background image of the div with the id = "image" 
     back to the orginal-image.  You can use the css code to see what that original URL was
