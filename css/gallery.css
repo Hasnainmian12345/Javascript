@@ -28,4 +28,4 @@ body{
 img{
 		width:100%; opacity: .75;
 }
-img.hover, img.focus{opacity: 1;border-color:none;}
+img:hover, img:focus{opacity: 1;border-color:white;}
