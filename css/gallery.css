@@ -24,6 +24,7 @@ body{
 		margin-left:17%;
     border: 10px solid black;
 }
+#header_img{width:20%;}
 img{
 		width:95%; opacity: .75;
 }
